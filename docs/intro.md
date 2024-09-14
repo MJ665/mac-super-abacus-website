@@ -1,47 +1,32 @@
 ---
-sidebar_position: 1
+slug: intro
+title: Intro
+authors: [MJ665]
+tags: [Intro]
+description: Intro
+keywords: [Intro]
 ---
 
-# Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
 
-Get started by **creating a new site**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
-### What you'll need
+Welcome to my portfolio! I’m Meet Jain, an AI/ML engineer and passionate technologist with a diverse range of projects and experiences. My journey in the tech world encompasses both groundbreaking new projects and significant contributions to previous endeavors.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Current Projects
 
-## Generate a new site
+I am currently focused on several exciting projects:
 
-Generate a new Docusaurus site using the **classic template**.
+- **Internet Banking Payment Simulation:** Developing a sophisticated simulation for internet banking transactions, aiming to enhance security and user experience.
+- **Course Selling Website:** Building a platform for selling courses, integrating features for seamless user experience and effective course management.
+- **Basic to Advanced ML Learning Website:** Creating a comprehensive website that provides resources and learning modules for machine learning, catering to both beginners and advanced learners.
 
-The classic template will automatically be added to your project after you run the command:
+### Previous Projects
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+In addition to these ongoing projects, I have worked on a variety of significant projects in the past. My experience spans across different domains, showcasing my ability to tackle complex problems and deliver impactful solutions.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Feel free to explore my [GitHub profile](https://github.com/MJ665) and [LinkedIn profile](https://www.linkedin.com/in/mj2h) to learn more about my work and achievements.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Thank you for visiting, and I look forward to connecting with you!
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.

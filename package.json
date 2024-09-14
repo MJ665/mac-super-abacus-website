@@ -2,7 +2,7 @@
   "name": "mac-super-abacus-website",
   "version": "0.0.0",
   "private": true,
-  "scripts": {
+ "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
@@ -17,16 +17,22 @@
   "dependencies": {
     "@docusaurus/core": "3.5.2",
     "@docusaurus/preset-classic": "3.5.2",
+    "@docusaurus/theme-search-algolia": "^3.5.2",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
+    "punycode": "^2.3.1",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.5.2",
     "@docusaurus/tsconfig": "3.5.2",
     "@docusaurus/types": "3.5.2",
+    "dotenv": "^16.4.5",
+    "dotenv-webpack": "^8.1.0",
     "typescript": "~5.5.2"
   },
   "browserslist": {
