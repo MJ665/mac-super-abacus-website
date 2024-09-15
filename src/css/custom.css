@@ -56,3 +56,26 @@ html[data-theme='dark'] .hero {
   --docsearch-muted-color: var(--ifm-color-secondary-darkest);
   --docsearch-container-background: rgba(47, 55, 69, 0.7);
 }
+
+
+
+
+
+
+
+.announcementBar button,
+.announcementBar a {
+  background-color: #ff6ec7; /* Bubblegum Pink */
+  color: #005bff; /* Sky Blue Text */
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.announcementBar button:hover,
+.announcementBar a:hover {
+  background-color: #ffcc00; /* Sunshine Yellow hover effect */
+  color: #ffffff; /* White text on hover */
+}

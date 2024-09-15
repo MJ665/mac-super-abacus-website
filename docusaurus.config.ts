@@ -4,7 +4,7 @@ import rehypeKatex from 'rehype-katex';
 
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import type * as Preset from '@docusaurus/preset-classic';     
 
 // import * as dotenv from 'dotenv';
 // dotenv.config();
@@ -17,8 +17,8 @@ require('dotenv').config()
 
 
 const config: Config = {
-  title: 'Meet Jain Portfolio',
-  tagline: 'Always eager to learn new technologies and skills',
+  title: 'Super Abacus Academy!',
+  tagline: 'Master the art of the abacus with a dash of fun and numbers!',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -31,7 +31,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'mj665', // Usually your GitHub org/user name.
   projectName: 'mj665.github.io', // Usually your repo name.
-  deploymentBranch:"gh-pages-deployment",
+  deploymentBranch:"deployment",
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -232,16 +232,32 @@ const config: Config = {
       /**
         * * Highlight: adding announcement banner
       **/
-    announcementBar:{
-      id: 'openToWork',
+    // announcementBar:{
+    //   id: 'admissionOpen',
+    //   content:
+    //   `🎉<strong> Welcome to Super Abacus !</strong> 🧠 want to be a math wizard? Check out the new fun abacus courses! <strong>Admission Open</strong> 🎮`,
+    //   backgroundColor: `linear-gradient(45deg, #ffcc00, #00d1ff, #ff6ec7, #3cff8f)`,
+    //   textColor: '#ffffff',
+    
+    //   isCloseable: false,
+    // },
+    announcementBar: {
+      id: 'super_abacus_announcement',
       content:
-      `<strong>Open To work and get hired.</strong> Reach Me Out on Discord, LinkedIn, Email or X. You can get links from below or on <a target="_blank" rel="noopener noreferrer" href="https://linktr.ee/mj665">Linktree</a>.`,
-      backgroundColor: '#fafbfc',
-      textColor: '#574476',
-      isCloseable: false,
-    },
+      `🎉<strong> Welcome to Super Abacus !</strong> 🧠 want to be a math wizard? Check out the new fun abacus courses! <strong>Admission Open</strong> 🎮`,
+          backgroundColor: '#ffcc00', // Sunshine Yellow
+          // textColor: '#005bff', // Sky Blue
+          textColor: '#000000', // Sky Blue
+          isCloseable: false,
+        },
+        customCss: [
+          require.resolve('./src/css/custom.css'), // Ensure custom CSS is loaded
+        ],
+    
+
+        
     navbar: {
-      title: 'Meet Jain',
+      title: 'Super Abacus Academy!',
       logo: {
         alt: 'My Site Logo',
         src: 'img/graphic_programmer.png',

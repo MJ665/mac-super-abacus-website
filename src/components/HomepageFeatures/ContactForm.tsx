@@ -1,19 +1,12 @@
-
 import React, { useState } from 'react';
-import clsx from 'clsx';
-import styles from './ContactForm.module.css'; // Create a new CSS module for the contact form
-
-// import {envVariable} from "docusaurus.config"
-
-// import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-// const {siteConfig} = useDocusaurusContext();
-
+import styles from './ContactForm.module.css'; 
 import siteConfig from '@generated/docusaurus.config';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    phone_number: '',  
     message: '',
   });
   const [loading, setLoading] = useState(false);
@@ -25,30 +18,26 @@ const ContactForm = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-
-
-
-
-  
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
     setError(null);
-  
+
     const scriptURL = siteConfig.customFields.REACT_APP_GOOGLE_SCRIPT_URL;
-  
+
     if (typeof scriptURL !== 'string') {
-      setError('Script URL is not defined');
+      setError('Oops! Something went wrong.');
       setLoading(false);
       return;
     }
-  
+
     const postData = new URLSearchParams({
       name: formData.name,
       email: formData.email,
-      message: formData.message
+      phone_number: formData.phone_number,  
+      message: formData.message,
     }).toString();
-  
+
     try {
       const response = await fetch(scriptURL, {
         method: 'POST',
@@ -57,70 +46,84 @@ const ContactForm = () => {
           'Content-Type': 'application/x-www-form-urlencoded',
         },
       });
-  
+
       const result = await response.json();
-  
+
       if (result.result === 'success') {
         setSubmitted(true);
-        setFormData({ name: '', email: '', message: '' });
+        setFormData({ name: '', email: '', phone_number: '', message: '' });
       } else {
-        throw new Error(result.message || 'Unknown error occurred');
+        throw new Error(result.message || 'Oh no, something went wrong!');
       }
     } catch (error) {
-      setError('Failed to submit the form. Please try again later.');
+      setError('Failed to send your message. Try again later!');
     } finally {
       setLoading(false);
     }
   };
-  
 
   return (
-    <>
-    <br />
     <div className={styles.contactForm}>
-      <h2>Contact Me</h2>
-      {submitted && <p className={styles.successMessage}>Your message has been received on contact.hackathonmj@gmail.com email. I will follow you back on email Thank you!!! 😊</p>}
+      <h2>🎉 Let's Chat! 🎉</h2>
+      {submitted && (
+        <p className={styles.successMessage}>
+          Yay! 🥳 We got your message! A magical copy will fly to your inbox soon! 📨
+        </p>
+      )}
       {error && <p className={styles.errorMessage}>{error}</p>}
       <form onSubmit={handleSubmit}>
         <label className={styles.formLabel}>
-          Name*:
+          🚀 What's your name?*:
           <input
             className={styles.formInput}
             type="text"
             name="name"
             value={formData.name}
             onChange={handleChange}
+            placeholder="Enter your awesome name!"
             required
           />
         </label>
         <label className={styles.formLabel}>
-          Email*:
+          ✨ Your Email*:
           <input
             className={styles.formInput}
             type="email"
             name="email"
             value={formData.email}
             onChange={handleChange}
+            placeholder="Your magical email!"
             required
           />
         </label>
         <label className={styles.formLabel}>
-          Message*:
+          📞 Phone Number*:
+          <input
+            className={styles.formInput}
+            type="text"
+            name="phone_number"
+            value={formData.phone_number}
+            onChange={handleChange}
+            placeholder="Your secret agent number!"
+            required
+          />
+        </label>
+        <label className={styles.formLabel}>
+          💬 Message*:
           <textarea
             className={styles.formTextarea}
             name="message"
             value={formData.message}
             onChange={handleChange}
+            placeholder="Tell us your queries, suggestions or awesome thoughts!"
             required
           />
         </label>
         <button className={styles.submitButton} type="submit" disabled={loading}>
-          {loading ? 'Submitting...' : 'Submit'}
+          {loading ? 'Sending your message...' : 'Send it!'}
         </button>
       </form>
-      
     </div>
-    <br /></>
   );
 };
 
