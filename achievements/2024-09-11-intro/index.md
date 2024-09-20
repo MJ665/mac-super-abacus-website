@@ -1,7 +1,7 @@
 ---
 slug: intro
 title: intro
-authors: [MJ665]
+authors: [SuperAbacus]
 tags: [intro]
 description: intro
 keywords: [intro]

@@ -62,12 +62,14 @@ const ContactForm = () => {
     }
   };
 
-  return (
+  return (<>
     <div className={styles.contactForm}>
       <h2>🎉 Let's Chat! 🎉</h2>
       {submitted && (
         <p className={styles.successMessage}>
           Yay! 🥳 We got your message! A magical copy will fly to your inbox soon! 📨
+        <br />
+        <a href='https://forms.gle/g14KHU1fbXkuWDt6A'>If You do not receive the email the you can fill this CONTACT FORM📝📝📝</a>
         </p>
       )}
       {error && <p className={styles.errorMessage}>{error}</p>}
@@ -124,6 +126,7 @@ const ContactForm = () => {
         </button>
       </form>
     </div>
+    <br /></>
   );
 };
 

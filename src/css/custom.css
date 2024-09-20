@@ -5,6 +5,8 @@
  */
 
 /* You can override the default Infima variables here. */
+
+
 :root {
   --ifm-color-primary: #0093d7;
   --ifm-color-primary-dark: #1eaace;
@@ -31,13 +33,19 @@
 html[data-theme='light'] .hero {
   background-image: url("/static/img/hero-light-image.jpeg");
   background-size: cover;
-  background-position: center;
+
+  background-position: top;
 }
+/* html[data-theme='light'] .hero {
+  background-image: url("/static/img/hero-light-image.jpeg");
+  background-size: cover;
+  background-position: center;
+} */
 
 html[data-theme='dark'] .hero {
   background-image: url("/static/img/hero-dark-image.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 
@@ -79,3 +87,7 @@ html[data-theme='dark'] .hero {
   background-color: #ffcc00; /* Sunshine Yellow hover effect */
   color: #ffffff; /* White text on hover */
 }
+
+
+
+
