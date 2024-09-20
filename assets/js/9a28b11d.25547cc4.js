@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmac_super_abacus_website=self.webpackChunkmac_super_abacus_website||[]).push([[2675],{3998:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/announcements","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"This is the announcements section on my portfolio website","blogTitle":"Announcements"}}')}}]);

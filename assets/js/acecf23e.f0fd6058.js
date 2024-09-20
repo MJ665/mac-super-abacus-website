@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmac_super_abacus_website=self.webpackChunkmac_super_abacus_website||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/mac-super-abacus-website/blog","blogTitle":"Docusaurus blog!","authorsListPath":"/mac-super-abacus-website/blog/authors"}')}}]);

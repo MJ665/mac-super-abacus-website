@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Super Abacus Academy! Blog</title>
-        <link>https://superabacus.in/blog</link>
+        <link>https://MJ665.github.io/mac-super-abacus-website/blog</link>
         <description>Super Abacus Academy! Blog</description>
         <lastBuildDate>Wed, 11 Sep 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[intro]]></title>
-            <link>https://superabacus.in/blog/intro</link>
-            <guid>https://superabacus.in/blog/intro</guid>
+            <link>https://MJ665.github.io/mac-super-abacus-website/blog/intro</link>
+            <guid>https://MJ665.github.io/mac-super-abacus-website/blog/intro</guid>
             <pubDate>Wed, 11 Sep 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[intro]]></description>
             <content:encoded><![CDATA[<p>will be comming</p>

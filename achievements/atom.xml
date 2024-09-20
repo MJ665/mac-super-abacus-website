@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://superabacus.in/achievements</id>
+    <id>https://MJ665.github.io/mac-super-abacus-website/achievements</id>
     <title>Super Abacus Academy! Blog</title>
     <updated>2024-09-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://superabacus.in/achievements"/>
+    <link rel="alternate" href="https://MJ665.github.io/mac-super-abacus-website/achievements"/>
     <subtitle>Super Abacus Academy! Blog</subtitle>
-    <icon>https://superabacus.in/img/favicon.ico</icon>
+    <icon>https://MJ665.github.io/mac-super-abacus-website/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[intro]]></title>
-        <id>https://superabacus.in/achievements/intro</id>
-        <link href="https://superabacus.in/achievements/intro"/>
+        <id>https://MJ665.github.io/mac-super-abacus-website/achievements/intro</id>
+        <link href="https://MJ665.github.io/mac-super-abacus-website/achievements/intro"/>
         <updated>2024-09-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[intro]]></summary>
         <content type="html"><![CDATA[<p>will be comming</p>

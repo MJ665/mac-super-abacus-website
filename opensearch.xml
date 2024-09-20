@@ -4,8 +4,8 @@
   <ShortName>Super Abacus Academy!</ShortName>
   <Description>Search Super Abacus Academy!</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://superabacus.in/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://superabacus.in/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://superabacus.in/opensearch.xml" />
-  <moz:SearchForm>https://superabacus.in/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://MJ665.github.io/mac-super-abacus-website/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://MJ665.github.io/mac-super-abacus-website/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://MJ665.github.io/mac-super-abacus-website/opensearch.xml" />
+  <moz:SearchForm>https://MJ665.github.io/mac-super-abacus-website/</moz:SearchForm>
 </OpenSearchDescription>

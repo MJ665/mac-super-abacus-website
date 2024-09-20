@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmac_super_abacus_website=self.webpackChunkmac_super_abacus_website||[]).push([[8619],{858:e=>{e.exports=JSON.parse('{"tags":[{"label":"intro","permalink":"/mac-super-abacus-website/achievements/tags/intro","count":1}]}')}}]);
