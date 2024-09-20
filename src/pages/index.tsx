@@ -31,7 +31,7 @@ function HomepageHeader() {
           <br />
 
 
-          <img src="/img/hero-photo.png" alt="" width="300px" />
+          <img src="img/hero-photo.png" alt="" width="300px" />
 
 
           <div style={{ display: 'flex', justifyContent: 'center', margin: '2rem 0' }}>
@@ -131,7 +131,7 @@ function HomepageHeader() {
   The queen of mental math—she’ll show you how to conquer math problems and solve questions in seconds.
 </li>
 
-<img src="/img/ProfilePicture.png" alt="Mrs. Ashwini Jain Profile Picture" width="200px" style={{ display: 'block', margin: 'auto' }} />
+<img src="img/ProfilePicture.png" alt="Mrs. Ashwini Jain Profile Picture" width="200px" style={{ display: 'block', margin: 'auto' }} />
 
 
                 </ol>
