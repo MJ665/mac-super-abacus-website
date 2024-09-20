@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmac_super_abacus_website=self.webpackChunkmac_super_abacus_website||[]).push([[6943],{5806:e=>{e.exports=JSON.parse('{"blogBasePath":"/announcements","blogTitle":"Announcements","authorsListPath":"/announcements/authors"}')}}]);

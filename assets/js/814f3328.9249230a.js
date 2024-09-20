@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmac_super_abacus_website=self.webpackChunkmac_super_abacus_website||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"All posts","items":[{"title":"intro","permalink":"/blog/intro","unlisted":false,"date":"2024-09-11T00:00:00.000Z"}]}')}}]);

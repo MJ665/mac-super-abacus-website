@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmac_super_abacus_website=self.webpackChunkmac_super_abacus_website||[]).push([[9067],{9187:s=>{s.exports=JSON.parse('{"tags":[{"label":"Intro","permalink":"/docs/tags/intro","count":1}]}')}}]);
