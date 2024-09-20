@@ -22,7 +22,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://superabacus.in',
+  url: 'https://github.com/MJ665/mac-super-abacus-website',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -30,8 +30,8 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'mj665', // Usually your GitHub org/user name.
-  projectName: 'mj665.github.io', // Usually your repo name.
-  deploymentBranch:"deployment",
+  projectName: 'mac-super-abacus-website', // Usually your repo name.
+  deploymentBranch:"gh-deployment",
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
