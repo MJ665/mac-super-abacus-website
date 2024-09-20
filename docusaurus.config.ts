@@ -21,11 +21,18 @@ const config: Config = {
   tagline: 'Master the art of the abacus with a dash of fun and numbers!',
   favicon: 'img/favicon.ico',
 
+  url: 'https://MJ665.github.io', // Update this to match the root domain without sub-path
+
+  // Sub-path where the site is hosted
+  baseUrl: '/mac-super-abacus-website/', // Correctly place the project sub-path here
+
   // Set the production url of your site here
-  url: 'https://github.com/MJ665/mac-super-abacus-website',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  // url: 'https://github.com/MJ665/mac-super-abacus-website',
+  // // Set the /<baseUrl>/ pathname under which your site is served
+  // // For GitHub pages deployment, it is often '/<projectName>/'
+  // baseUrl: '/',
+
+
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
